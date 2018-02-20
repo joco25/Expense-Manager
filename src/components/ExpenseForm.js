@@ -1,7 +1,6 @@
-import React from 'react'
-import moment from 'moment'
-import {SingleDatePicker} from 'react-dates'
-import 'react-dates/lib/css/_datepicker.css'
+import React from 'react';
+import moment from 'moment';
+import {SingleDatePicker} from 'react-dates';
 
 
 export default class ExpenseForm extends React.Component{
@@ -22,7 +21,7 @@ export default class ExpenseForm extends React.Component{
         this.setState(()=>({description}))
     }
     onNoteChange=(e)=>{
-        const note = e.target.value
+        const note = e.target.value;
         this.setState(()=>({note}))
     }
     onAmountChange=(e)=>{
