@@ -11,9 +11,9 @@ exports[`should render expenses if recieved 1`] = `
     </h3>
   </Link>
   <span>
-    183
-     - 
-    0
+    $1.83
+    -
+    Jan 1st, 1970
   </span>
 </div>
 `;
